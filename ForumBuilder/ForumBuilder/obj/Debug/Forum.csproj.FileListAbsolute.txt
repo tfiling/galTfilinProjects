@@ -1,0 +1,13 @@
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe.config
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\obj\Debug\Forum.csprojResolveAssemblyReference.cache
+C:\Users\Aviv\Documents\WorkShop\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe.config
+C:\Users\Aviv\Documents\WorkShop\ForumBuilder\ForumBuilder\obj\Debug\Forum.csprojResolveAssemblyReference.cache
+C:\Users\gal\Desktop\wsep\New Folder\project\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe.config
+C:\Users\gal\Desktop\wsep\New Folder\project\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe
+C:\Users\gal\Desktop\wsep\New Folder\project\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.pdb
+C:\Users\gal\Desktop\wsep\New Folder\project\ForumBuilder\ForumBuilder\obj\Debug\ForumBuilder.exe
+C:\Users\gal\Desktop\wsep\New Folder\project\ForumBuilder\ForumBuilder\obj\Debug\ForumBuilder.pdb
+C:\Users\gal\Desktop\wsep\New Folder\project\ForumBuilder\ForumBuilder\obj\Debug\Forum.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\sadna\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe.config
+C:\Users\User\Desktop\WorkShop\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe.config
+C:\Users\User\Desktop\WorkShop\ForumBuilder\ForumBuilder\obj\Debug\Forum.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\ForumBuilder.exe.config
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\ForumBuilder.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\ForumBuilder.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\BL_Back_End.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\Common.dll
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\Database.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\DW.CodedUI.dll
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\BL_Back_End.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\Common.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\Database.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\DW.CodedUI.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\bin\Release\DW.CodedUI.xml
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\obj\Release\Domain.csprojResolveAssemblyReference.cache
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\obj\Release\ForumBuilder.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\ForumBuilder\obj\Release\ForumBuilder.pdb

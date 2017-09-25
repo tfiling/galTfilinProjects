@@ -1,0 +1,21 @@
+﻿<Window ResizeMode="CanResize" x:Class="PL.MainWindow" Background="Ivory"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Forum" Height="400" Width="500" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    <Grid Margin="0,0,0,0">
+        <Image Margin="70,40,0,0" Source="http://www.tudiabetes.org/forum/uploads/default/original/3X/3/5/35d47232d1d9cb26dcd2a226952f98137a9080c8.jpg" VerticalAlignment="Top" Height="95" HorizontalAlignment="Left" Width="364"/>
+        <TextBlock FontFamily="Cooper Black" Margin="22,172,0,0" TextWrapping="Wrap" Text="Choose forum:" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122"/>
+        <TextBlock FontFamily="Cooper Black" Text="Please login:" Margin="22,204,0,0" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122"/>
+        <TextBlock FontFamily="Cooper Black" Text="Enter UserName:" Margin="22,234,0,0" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122"/>
+        <TextBlock FontFamily="Cooper Black" Text="Enter Password:" Margin="22,262,0,0" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122"/>
+        <ComboBox x:Name="comboBox" Margin="174,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" DropDownOpened="ComboBox_OnDropDownOpened" DropDownClosed="ComboBox_OnDropDownClosed" Height="26" Width="225"/>
+        <CheckBox Name="guestCheck" IsChecked="False" Margin="278,206,0,0" Click="guestChoose" HorizontalAlignment="Left" VerticalAlignment="Top" Height="22" Width="46"/>
+        <TextBox Name="ID" Margin="174,234,0,0" TextWrapping="Wrap" Text="" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="225"/>
+        <PasswordBox Name="Password" Margin="174,262,0,0" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="225"/>
+        <Button x:Name="superUserViewButton" FontFamily="Cooper Black" Content="Im A Super User" Margin="54,326,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="superUserViewButton_Click" Height="26" Width="117"/>
+        <Button Name="login" FontFamily="Cooper Black" Content="Login"  Margin="176,326,0,0" Click="LoginPressed" HorizontalAlignment="Left" VerticalAlignment="Top" Width="71" Height="26"/>
+        <Button Name="signUP" FontFamily="Cooper Black" Content="Sign Up" Margin="252,326,0,0" Click="SignUpUser" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Height="26"/>
+        <Button Name="restore" FontFamily="Cooper Black" Content="Restore Password" Margin="329,326,0,0" Click="restorePass" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Height="26"/>
+        <TextBlock Name="guest" FontFamily="Cooper Black" Text="As Guest" Margin="200,206,0,0" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73"/>
+    </Grid>
+</Window>

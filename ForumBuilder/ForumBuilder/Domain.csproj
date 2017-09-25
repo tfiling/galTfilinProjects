@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E3130C0-D5DC-41A6-A297-28B5D4859ED4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ForumBuilder</RootNamespace>
+    <AssemblyName>ForumBuilder</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DW.CodedUI">
+      <HintPath>..\packages\DW.CodedUI.2.6.2\lib\DW.CodedUI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\ForumController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
+    <Compile Include="Controllers\SubForumController.cs" />
+    <Compile Include="Controllers\SuperUserController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\IForumController.cs" />
+    <Compile Include="Controllers\IPostController.cs" />
+    <Compile Include="Controllers\ISubForumController.cs" />
+    <Compile Include="Controllers\ISuperUserController.cs" />
+    <Compile Include="Controllers\IUserController.cs" />
+    <Compile Include="Managers\ForumManager.cs" />
+    <Compile Include="Managers\PostManager.cs" />
+    <Compile Include="Managers\SubForumManager.cs" />
+    <Compile Include="Managers\SuperUserManager.cs" />
+    <Compile Include="Managers\UserManager.cs" />
+    <Compile Include="System\ForumSystem.cs" />
+    <Compile Include="System\ILogger.cs" />
+    <Compile Include="System\Logger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL_Back_End\BL_Back_End.csproj">
+      <Project>{3ff8847a-b113-4c03-bed3-485dcaba2836}</Project>
+      <Name>BL_Back_End</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\ForumBuilder.common.csproj">
+      <Project>{db6f5ffc-3837-455b-a666-3c117c130995}</Project>
+      <Name>ForumBuilder.common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{f9dd4028-a8e6-418d-b96b-6976d26e6aa4}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

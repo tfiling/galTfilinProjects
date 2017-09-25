@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FF9CB85-8DFB-4C7D-8D97-E4F77055B65D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebClient</RootNamespace>
+    <AssemblyName>WebClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddNewSubForum.aspx" />
+    <Content Include="AddPostPage.aspx" />
+    <Content Include="AddThread.aspx" />
+    <Content Include="AddThreadPage.aspx" />
+    <Content Include="ForumWindow.aspx" />
+    <Content Include="Images\background-Tomer.jpg" />
+    <Content Include="MainWindow.html" />
+    <Content Include="PostsPage.aspx" />
+    <Content Include="PrivateMessagesWindow.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="SetPreferences.aspx" />
+    <Content Include="SignUpWindow.aspx" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="subForumWebPage.aspx" />
+    <Content Include="SuperUserLoginWindow.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MainWindow.aspx" />
+    <Content Include="worker.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewSubForum.aspx.cs">
+      <DependentUpon>AddNewSubForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNewSubForum.aspx.designer.cs">
+      <DependentUpon>AddNewSubForum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPostPage.aspx.cs">
+      <DependentUpon>AddPostPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPostPage.aspx.designer.cs">
+      <DependentUpon>AddPostPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddThread.aspx.cs">
+      <DependentUpon>AddThread.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddThread.aspx.designer.cs">
+      <DependentUpon>AddThread.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddThreadPage.aspx.cs">
+      <DependentUpon>AddThreadPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddThreadPage.aspx.designer.cs">
+      <DependentUpon>AddThreadPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForumWindow.aspx.cs">
+      <DependentUpon>ForumWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForumWindow.aspx.designer.cs">
+      <DependentUpon>ForumWindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostsPage.aspx.cs">
+      <DependentUpon>PostsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostsPage.aspx.designer.cs">
+      <DependentUpon>PostsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrivateMessagesWindow.aspx.cs">
+      <DependentUpon>PrivateMessagesWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivateMessagesWindow.aspx.designer.cs">
+      <DependentUpon>PrivateMessagesWindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proxies\ForumManagerClient.cs" />
+    <Compile Include="proxies\PostManagerClient.cs" />
+    <Compile Include="proxies\SubForumManagerClient.cs" />
+    <Compile Include="proxies\SuperUserManagerClient.cs" />
+    <Compile Include="proxies\UserManagerClient.cs" />
+    <Compile Include="MainWindow.aspx.cs">
+      <DependentUpon>MainWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainWindow.aspx.designer.cs">
+      <DependentUpon>MainWindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SetPreferences.aspx.cs">
+      <DependentUpon>SetPreferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SetPreferences.aspx.designer.cs">
+      <DependentUpon>SetPreferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpWindow.aspx.cs">
+      <DependentUpon>SignUpWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpWindow.aspx.designer.cs">
+      <DependentUpon>SignUpWindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="subForumWebPage.aspx.cs">
+      <DependentUpon>subForumWebPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subForumWebPage.aspx.designer.cs">
+      <DependentUpon>subForumWebPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperUserLoginWindow.aspx.cs">
+      <DependentUpon>SuperUserLoginWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperUserLoginWindow.aspx.designer.cs">
+      <DependentUpon>SuperUserLoginWindow.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\bootstrap.css.map" />
+    <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\ForumBuilder.common.csproj">
+      <Project>{db6f5ffc-3837-455b-a666-3c117c130995}</Project>
+      <Name>ForumBuilder.common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PL\PL.csproj">
+      <Project>{B690218F-8AFF-410B-B355-7967970D472B}</Project>
+      <Name>PL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49832</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49830/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

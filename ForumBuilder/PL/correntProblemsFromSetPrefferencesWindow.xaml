@@ -1,0 +1,27 @@
+﻿<Window x:Class="PL.correntProblemsFromSetPrefferencesWindow" Background="Ivory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PL"
+        mc:Ignorable="d"
+        Title="correntProblemsFromSetPrefferencesWindow" Height="350" Width="400">
+    <Grid>
+        <Grid Name="setPassGrid" Visibility="Visible">
+            <Label x:Name="label" FontSize="26" FontFamily="cooper black" Content="Set Password" Height="43" Margin="97,67,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="198"/>
+            <Label x:Name="label1" FontFamily="cooper black" Content="Enter new password:" HorizontalAlignment="Left" Height="26" Margin="43,176,0,0" VerticalAlignment="Top" Width="142"/>
+            <PasswordBox x:Name="setPassTextBox" HorizontalAlignment="Left" Height="23" Margin="220,179,0,0" VerticalAlignment="Top" Width="135"/>
+            <Button x:Name="setPasswordButton" FontFamily="cooper black" Content="Set Password" HorizontalAlignment="Left" Margin="235,264,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.086,-1.011" Height="24" Click="setPasswordButton_Click"/>
+        </Grid>
+        <Grid Name="setIdentifyingQuestionsGrid" Visibility="Collapsed">
+            <Label x:Name="label2" FontSize="26" FontFamily="cooper black" Content="Add Identifying&#xD;&#xA;      Questions" HorizontalAlignment="Left" Height="74" Margin="76,42,0,0" VerticalAlignment="Top" Width="231"/>
+            <TextBlock Name="q1" FontFamily="Cooper Black" TextWrapping="Wrap" Text="Who was your favorite teacher? :" Height="22" Margin="15,174,0,0" HorizontalAlignment="Left" Width="258" VerticalAlignment="Top"/>
+            <TextBlock Name="q2" FontFamily="Cooper Black" Margin="15,202,0,0" TextWrapping="Wrap" Text="What is your favorite pet? :" Height="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="229"/>
+            <TextBox Name="ansToq1"  Height="23" Margin="245,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="133"/>
+            <TextBox Name="ansToq2" Height="23" Margin="245,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="133"/>
+            <Button x:Name="addIdentifyingQuestionsButton" FontFamily="cooper black" Content="Add Questions" HorizontalAlignment="Left" Height="24" Margin="249,264,0,0" VerticalAlignment="Top" Width="114" Click="addIdentifyingQuestionsButton_Click"/>
+        </Grid>
+        <Button x:Name="backButton" Visibility="Collapsed" FontFamily="cooper black" Content="Back" HorizontalAlignment="Left" Height="24" Margin="43,264,0,0" VerticalAlignment="Top" Width="114" Click="backButton_Click"/>
+    </Grid>
+
+</Window>

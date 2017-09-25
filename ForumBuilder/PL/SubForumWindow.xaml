@@ -1,0 +1,31 @@
+﻿<Window x:Class="PL.SubForumWindow" Background="Ivory" ResizeMode="CanResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SubForumWindow" Height="400" Width="500">
+    <Grid>
+        <Menu Margin="0,0,0,336" Name="MainMenu" VerticalAlignment="Top" Height="20">
+            <MenuItem Header="Action" Click="MenuItem_Click">
+                <MenuItem Header="Add Thread " Name="addPostButton"/>
+                <MenuItem Header="Nominate Moderator " Name="addModeratorButton"/>
+                <MenuItem Header="Dismiss Moderator" Name="dismissModerator"/>
+                <MenuItem Header="Send\View Private Messages" Name="privateMessages"/>
+                <MenuItem Header="Edit Post" Name="editMassege"/>
+                <MenuItem Header="Delete" Name="deleteMessageButton"/>
+                <MenuItem Header="Back" Name="backButton" />
+                <Separator />
+                <MenuItem Header="Log Out" Name="logOutButton"/>
+            </MenuItem>
+            <Separator Width="50" />
+            <MenuItem  Name="UsrMenu" Width="180" IsCheckable="False" Cursor="None" HorizontalAlignment="Right"/>
+            <MenuItem  Name="sessionMenu" Width="150" IsCheckable="False" Cursor="None" HorizontalAlignment="Right"/>
+        </Menu>
+        <Label FontSize="16"  Name="forumName" FontFamily="Cooper Black" Margin="20,30,0,0" VerticalAlignment="Top" Height="30" HorizontalAlignment="Left" Width="341"/>
+        <Label FontSize="16" Name="sForumName" FontFamily="Cooper Black" HorizontalAlignment="Left" Margin="20,68,0,0" VerticalAlignment="Top" Width="341" Height="30"/>
+        <TextBlock Name="threadTextBox" FontSize="14" FontFamily="cooper black" TextWrapping="Wrap" VerticalAlignment="Top"
+            	Text="Threads" Visibility="Visible" Height="28" Margin="208,110,0,0" HorizontalAlignment="Left" Width="76"/>
+        <DataGrid x:Name="threadView" 
+                  AutoGenerateColumns="True" Margin="0,160,0,0" SelectionChanged="ThreadView_SelectionChanged" Loaded="DataGrid_Loaded">
+        </DataGrid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="209" Margin="0,160,0,0" VerticalAlignment="Top" Width="492"/>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\git projects\ForumBuilder\ForumBuilder\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe.config
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.exe
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\ForumBuilder.pdb
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\BL_Back_End.exe
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\Common.dll
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\Database.exe
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\DW.CodedUI.dll
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\BL_Back_End.pdb
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\Common.pdb
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\Database.pdb
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\DW.CodedUI.pdb
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\bin\Debug\DW.CodedUI.xml
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\obj\Debug\ForumBuilder.exe
+C:\galTfilinGIT\galTfilinProjects\ForumBuilder\ForumBuilder\obj\Debug\ForumBuilder.pdb

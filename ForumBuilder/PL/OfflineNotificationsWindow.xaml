@@ -1,0 +1,10 @@
+﻿<Window x:Class="PL.OfflineNotificationsWindow" ResizeMode="CanResize" Background="Ivory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="offlineNotificationsWindow" Height="300" Width="300">
+    <Grid>
+        <TextBlock Name="headline" FontSize="14" FontFamily="Broadway" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Pending Notification" Visibility="Visible" Height="26" Margin="70,20,0,0" Width="160"/>
+        <ListBox x:Name="pendingNotificationsListBox" HorizontalAlignment="Left" Height="182" Margin="10,60,0,0" VerticalAlignment="Top" Width="275"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\Database.exe.config
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\Database.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\Database.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\BL_Back_End.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\DW.CodedUI.dll
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\BL_Back_End.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\DW.CodedUI.pdb
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\bin\Release\DW.CodedUI.xml
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\obj\Release\Database.csprojResolveAssemblyReference.cache
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\obj\Release\Database.exe
+D:\Idan\Workshop\WorkShop.git\ForumBuilder\Database\obj\Release\Database.pdb

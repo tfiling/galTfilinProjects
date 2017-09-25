@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebClient.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Styles/bootstrap.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body class="background-Tomer">
+    <form id="form1" runat="server">
+    <p>
+            <asp:Label ID="mySessionKey" runat="server" Text=""></asp:Label>
+    </p>
+    <div>
+        <asp:ContentPlaceHolder ID="bodyHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
